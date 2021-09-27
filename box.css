@@ -1,0 +1,55 @@
+h1, p {
+    font-family: Calibri;
+}
+
+h3 {
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+#exercise-table {
+    display: flex;
+    padding-top: 25px;
+}
+
+#exercise-table > .col {
+    flex-grow: 1;
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.exercise {
+   margin: 40px 10px;
+}
+
+.answer-one {
+    border: 1px solid red;
+}
+
+.answer-two {
+    border: 5px dashed green;
+    padding: 5px;
+}
+
+.answer-three {
+    border: 1px solid blue;
+    margin: 10px; 
+    padding: 5px;
+}
+
+.answer-four {
+    border: 5px dotted purple;
+    padding: 10px;
+}
+
+.answer-five {
+    border: 10px double aqua;
+    padding: 5px;
+}
+
+.answer-six {
+    border: 10px double green;
+    padding: 10px;
+    margin: 5px;
+}
